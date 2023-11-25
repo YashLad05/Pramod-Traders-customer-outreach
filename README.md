@@ -18,6 +18,7 @@ To get started with this project, clone the repository and open the `index.html`
 
 ```bash
 git clone https://github.com/YashLad05/Pramod-Traders-customer-outreach.git
+```
 
 ## Contributing
 - We welcome contributions from everyone. 
