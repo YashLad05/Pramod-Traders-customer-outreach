@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+div>p,
+div>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+
+    width: 95vw;
+    margin: auto;
+}
+
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaves_img {
+    width: 46vw;
+    height: 80vh;
+    /* outline: 2px solid red; */
+
+    background-image: url(./images/large-leaves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cool_bg_color {
+    width: 46vw;
+    height: 80vh;
+    background-color: #4c885e;
+}
+
+.card1 {
+    /* width: 35vw; */
+    width: clamp(360px, 35vw, 535px);
+    height: 70vh;
+    border-radius: 1.5em;
+
+    position: fixed;
+    /* top: -75vh; */
+    /* right: -25vw; */
+}
+
+#login-box {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.login-box-creds {
+    width: clamp(310px, 25vw, 520px);
+    /* width: 25vw; */
+    margin-bottom: 1vw;
+    border-style: none;
+    border-color: aliceblue;
+    border-radius: 20px;
+}
+
+.save-creds>label {
+    color: #494b49;
+}
+
+.login-box-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-box-actions>div:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.login-box-actions>p {
+    color: #00ac14;
+}
+
+.login-box-actions>p:hover {
+    cursor: pointer;
+}
+
+.login-box-creds-validate {
+    margin-top: 2vw;
+    width: clamp(310px, 25vw, 520px);
+    /* width: 25vw; */
+    text-transform: capitalize;
+}
