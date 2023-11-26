@@ -15,9 +15,9 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-dark">
     <section class="app">
-        <div class="row app-header">
+        <div class="text-light">
             <h2>Pramod Traders</h2>
 
         </div>
@@ -32,31 +32,59 @@
 
                 <form class="login-box-creds" id="newCustomerForm">
 
-                    <input type="text" name="" 
-                        class="name form-control rounded-start-pill rounded-end-pill login-box-creds"
-                        placeholder="Name" required>
+                    <input type="text" name=""
+                        class="name form-control rounded-start-pill rounded-end-pill login-box-creds" placeholder="Name"
+                        required>
 
-                    <input type="email" name="" 
-                        class="email form-control rounded-start-pill rounded-end-pill login-box-creds"
-                        placeholder="Email" required>
-
-                    <input type="text" name="" 
-                        class="country form-control rounded-start-pill rounded-end-pill login-box-creds"
-                        placeholder="Country" required>
-
-                    <input type="number" name="" 
+                    <input type="number" name=""
                         class="phoneNo form-control rounded-start-pill rounded-end-pill login-box-creds"
                         placeholder="Phone No." required>
 
-                    <textarea for="" class="message form-control rounded-3 login-box-creds" rows="3"
-                        placeholder="Type your message here..." required></textarea>
+                    <label for="">Which of the following products you are interested in?</label>
 
-                    <div class="login-box-actions">
-                        <div class="form-check form-switch save-creds">
-                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                            <label class="form-check-label" for="flexSwitchCheckDefault">Remember Me</label>
+                    <div class="row ">
+                        <div class=" col-6">
+                            <input class="form-check-input" type="checkbox" value="" id="ropes">
+                            <label class="form-check-label" for="ropes">
+                                Ropes
+                            </label>
+                        </div>
+
+                        <div class=" col-6">
+                            <input class="form-check-input" type="checkbox" value="" id="gardenPipes">
+                            <label class="form-check-label" for="gardenPipes">
+                                Garden Pipes
+                            </label>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class=" col-6">
+                            <input class="form-check-input" type="checkbox" value="" id="goSajProducts">
+                            <label class="form-check-label" for="goSajProducts">
+                                GoSaj Products
+                            </label>
+                        </div>
+
+                        <div class=" col-6">
+                            <input class="form-check-input" type="checkbox" value="" id="greenNets">
+                            <label class="form-check-label" for="greenNets">
+                                Green Nets
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class=" col-8">
+                            <input class="form-check-input" type="checkbox" value="" id="samruddhiProducts">
+                            <label class="form-check-label" for="samruddhiProducts">
+                                Samruddhi Products
+                            </label>
+                        </div>
+                    </div>
+
+                    <textarea for="" class="message form-control rounded-3 login-box-creds mt-1" rows="3"
+                        placeholder="Type your message here..." required></textarea>
 
                     <button type="submit" onclick="validationCheck();"
                         class="btn btn-success rounded-start-pill rounded-end-pill login-box-creds-validate">
